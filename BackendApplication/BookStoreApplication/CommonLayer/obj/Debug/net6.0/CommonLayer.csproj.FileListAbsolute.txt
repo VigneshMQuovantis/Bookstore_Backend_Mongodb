@@ -1,0 +1,12 @@
+D:\BackendApplication\BookStoreApplication\CommonLayer\bin\Debug\net6.0\CommonLayer.deps.json
+D:\BackendApplication\BookStoreApplication\CommonLayer\bin\Debug\net6.0\CommonLayer.dll
+D:\BackendApplication\BookStoreApplication\CommonLayer\bin\Debug\net6.0\CommonLayer.pdb
+D:\BackendApplication\BookStoreApplication\CommonLayer\obj\Debug\net6.0\CommonLayer.csproj.AssemblyReference.cache
+D:\BackendApplication\BookStoreApplication\CommonLayer\obj\Debug\net6.0\CommonLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\BackendApplication\BookStoreApplication\CommonLayer\obj\Debug\net6.0\CommonLayer.AssemblyInfoInputs.cache
+D:\BackendApplication\BookStoreApplication\CommonLayer\obj\Debug\net6.0\CommonLayer.AssemblyInfo.cs
+D:\BackendApplication\BookStoreApplication\CommonLayer\obj\Debug\net6.0\CommonLayer.csproj.CoreCompileInputs.cache
+D:\BackendApplication\BookStoreApplication\CommonLayer\obj\Debug\net6.0\CommonLayer.dll
+D:\BackendApplication\BookStoreApplication\CommonLayer\obj\Debug\net6.0\refint\CommonLayer.dll
+D:\BackendApplication\BookStoreApplication\CommonLayer\obj\Debug\net6.0\CommonLayer.pdb
+D:\BackendApplication\BookStoreApplication\CommonLayer\obj\Debug\net6.0\ref\CommonLayer.dll

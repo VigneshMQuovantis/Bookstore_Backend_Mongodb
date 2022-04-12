@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wEdJAe3t3oLlYs7MYE/t1ugro/WuOxHa2+axuUOYcvM8JcIGVYodCS/6MFIwapcxg/ScyDJCenH0NG9zOq0qyw==",
+  "success": true,
+  "projectFilePath": "D:\\BackendApplication\\BookStoreApplication\\CommonLayer\\CommonLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vignesh.m\\.nuget\\packages\\mongodb.bson\\2.15.0\\mongodb.bson.2.15.0.nupkg.sha512",
+    "C:\\Users\\vignesh.m\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
