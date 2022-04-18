@@ -63,6 +63,23 @@ namespace RepositoryLayer.Services
             }
         }
 
+        public bool DeletetBookWithBookId(string bookId)
+        {
+            try
+            {
+                var deletedBook = bookEntities.DeleteOne(e => e.BookId == bookId);
+                if(deletedBook != null)
+                {
+                    return true;
+                }
+                return false;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public IEnumerable<BookResponseModel> GetAllBook()
         {
             try
@@ -144,7 +161,7 @@ namespace RepositoryLayer.Services
                         AddedAt = validateBook.AddedAt
                     };
 
-                    var updateBook = bookEntities.ReplaceOne(e => e.BookId == entities.BookId,entities);
+                    bookEntities.ReplaceOne(e => e.BookId == entities.BookId,entities);
 
                     BookResponseModel responseModel = new()
                     {

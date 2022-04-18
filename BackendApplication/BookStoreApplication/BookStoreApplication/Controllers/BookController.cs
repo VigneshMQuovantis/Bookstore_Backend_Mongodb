@@ -91,5 +91,23 @@ namespace BookStoreApplication.Controllers
                 return NotFound(new { message = ex.Message });
             }
         }
+
+        [HttpDelete("{bookId}")]
+        public IActionResult DeletetBookWithBookId(string bookId)
+        {
+            try
+            {
+                bool deleteBook = bookRL.DeletetBookWithBookId(bookId);
+                if (deleteBook)
+                {
+                    return Ok(new { Success = true, message = "Book with Book Id Deleted " });
+                }
+                return NotFound(new { Success = false, message = "Invalid BookId" });
+            }
+            catch (Exception ex)
+            {
+                return NotFound(new { message = ex.Message });
+            }
+        }
     }
 }

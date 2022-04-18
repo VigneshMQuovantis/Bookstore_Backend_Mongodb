@@ -14,5 +14,6 @@ namespace RepositoryLayer.Interfaces
         IEnumerable<BookResponseModel> GetAllBook();
         BookResponseModel GetBookWithBookId(string bookId);
         BookResponseModel UpdateBookDetails(string bookId, UpdateBookModel model);
+        bool DeletetBookWithBookId(string bookId);
     }
 }

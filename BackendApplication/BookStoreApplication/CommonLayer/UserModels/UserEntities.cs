@@ -1,4 +1,5 @@
-﻿using MongoDB.Bson;
+﻿using CommonLayer.AddressModels;
+using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using System;
 using System.Collections.Generic;
@@ -20,5 +21,7 @@ namespace CommonLayer.UserModels
         public string Password { get; set; }
 
         public string RegistrationDate { get; set; }
+
+        public AddressEntities AddressEntities { get; set; }
     }
 }

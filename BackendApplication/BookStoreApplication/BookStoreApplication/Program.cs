@@ -18,6 +18,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddTransient<IUserRL, UserRL>();
 builder.Services.AddTransient<IBookRL, BookRL>();
+builder.Services.AddTransient<IAddressRL, AddressRL>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -77,6 +78,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
